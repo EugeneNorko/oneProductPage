@@ -1,0 +1,21 @@
+.buyBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+  min-height: 80px;
+  padding: 10px 5px;
+  background-color: #543153;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 3;
+  text-transform: uppercase;
+  color: #fff;
+
+  &:hover {
+    background-color: #392138;
+  }
+}
