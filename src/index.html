@@ -11,7 +11,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./sass/index.scss" />
-    <!-- <script type="module" src="./js/orderFormBot.php"></script> -->
     <script type="module" src="./index.js"></script>
   </head>
   <body>
@@ -50,6 +49,20 @@
             <span class="benefits-list__text">Оплата при отриманні</span>
           </li>
         </ul>
+        <div class="timer">
+          <div class="timer__field">
+            <span class="timer__value" data-hours>00</span>
+            <span class="timer__label">:</span>
+          </div>
+          <div class="timer__field">
+            <span class="timer__value" data-minutes>00</span>
+            <span class="timer__label">:</span>
+          </div>
+          <div class="timer__field">
+            <span class="timer__value" data-seconds>00</span>
+          </div>
+        </div>
+        <p class="timer" id="timer"></p>
         <div class="sizes">
           <ul class="sizes__list">
             <li class="sizes-list__item--text">Розмір:</li>

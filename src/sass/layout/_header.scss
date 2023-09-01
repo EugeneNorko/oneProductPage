@@ -4,9 +4,13 @@
 }
 .header__title {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 32px;
   line-height: 42px;
   text-transform: uppercase;
   text-align: center;
   color: white;
+
+  @media screen and (min-width: 450px) {
+    font-size: 34px;
+  }
 }
