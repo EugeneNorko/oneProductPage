@@ -19,14 +19,14 @@
 
 .swiper-review {
   position: relative;
-  width: 350px;
+  width: 390px;
   min-height: 200px;
   background-color: #f1f0f0;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 55px 45px 30px;
+  padding: 60px 45px 30px;
   font-size: 18px;
   line-height: 1.38;
 }
@@ -41,6 +41,11 @@
   border-radius: 50%;
 }
 
+.swiper-name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 13px;
+}
 .swiper-button-next.swiper-button-next--mySwiper,
 .swiper-button-prev.swiper-button-prev--mySwiper {
   display: none;
