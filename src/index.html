@@ -11,7 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./sass/index.scss" />
-
+    <?php
+    include './js/orderFormBot.php';
+    ?>
+    <!-- <script type="module" src="./js/orderFormBot.php"></script> -->
     <script type="module" src="./index.js"></script>
   </head>
   <body>
@@ -269,11 +272,38 @@
               <li class="sizes-list__item">599 грн</li>
             </ul>
           </div>
+          <div class="form-block">
+            <form action="#" class="order-form" id="orderForm" method="post">
+              <label class="order-form__label" for="name">Ім’я</label>
+              <input
+                class="order-form__input"
+                type="text"
+                name="name"
+                id="name"
+                required
+                placeholder="Введіть Ваше ім’я"
+              />
+              <label class="order-form__label" for="tel">Телефон</label>
+              <input
+                class="order-form__input"
+                type="tel"
+                name="tel"
+                id="tel"
+                required
+                minlength="10"
+                maxlength="15"
+                placeholder="Введіть телефон"
+              />
+              <button class="buyBtn" type="submit" id="order-form__button">
+                Купити зараз
+              </button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container"></div>
-    </footer> -->
+    </footer>
   </body>
 </html>
