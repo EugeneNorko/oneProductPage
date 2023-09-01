@@ -11,9 +11,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./sass/index.scss" />
-    <?php
-    include './js/orderFormBot.php';
-    ?>
     <!-- <script type="module" src="./js/orderFormBot.php"></script> -->
     <script type="module" src="./index.js"></script>
   </head>
@@ -273,7 +270,7 @@
             </ul>
           </div>
           <div class="form-block">
-            <form action="#" class="order-form" id="orderForm" method="post">
+            <form action="#" class="order-form" id="orderForm">
               <label class="order-form__label" for="name">Ім’я</label>
               <input
                 class="order-form__input"
@@ -282,6 +279,7 @@
                 id="name"
                 required
                 placeholder="Введіть Ваше ім’я"
+                minlength="2"
               />
               <label class="order-form__label" for="tel">Телефон</label>
               <input
@@ -291,10 +289,20 @@
                 id="tel"
                 required
                 minlength="10"
-                maxlength="15"
-                placeholder="Введіть телефон"
+                maxlength="13"
+                placeholder="Введіть номер телефону"
               />
-              <button class="buyBtn" type="submit" id="order-form__button">
+              <label class="order-form__label">Оберіть товар</label>
+              <select class="order-form__select" name="product" id="product">
+                <option value="200x90" selected>200x90</option>
+                <option value="200x90">200x80</option>
+                <option value="200x90">200x70</option>
+              </select>
+              <button
+                class="buyBtn order-form__button"
+                type="submit"
+                id="order-form__button"
+              >
                 Купити зараз
               </button>
             </form>

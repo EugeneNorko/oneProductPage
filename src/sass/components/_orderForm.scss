@@ -1,0 +1,33 @@
+.order-form {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+.order-form__label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.order-form__input {
+  display: block;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #000;
+  padding: 4px 20px;
+  width: 400px;
+  min-height: 45px;
+  margin: 0 0 15px;
+  font-size: 20px;
+}
+
+.order-form__select {
+  display: block;
+  width: 400px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  min-height: 45px;
+  margin: 0 0 15px;
+  font-size: 20px;
+  margin: 0 0 30px;
+}
