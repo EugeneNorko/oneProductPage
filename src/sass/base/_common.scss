@@ -1,12 +1,14 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
-
+html {
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 100%;
+}
 body {
   position: relative;
   background-color: #dcdcdc;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
 }

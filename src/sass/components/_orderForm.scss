@@ -4,31 +4,34 @@
   width: 400px;
   color: black;
 }
-.order-form__label {
-  display: block;
-  font-size: 20px;
-  margin-bottom: 8px;
-}
+// .order-form__label {
+//   display: block;
+//   font-size: 20px;
+//   margin-bottom: 8px;
+// }
 
 .order-form__input {
   display: block;
   background-color: transparent;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: none;
   padding: 4px 20px;
   width: 400px;
-  min-height: 45px;
+  min-height: 70px;
   margin: 0 0 15px;
+  background-color: #f1f0f0;
   font-size: 20px;
 }
 
 .order-form__select {
   display: block;
   width: 400px;
-  border: 1px solid #000;
+  border: none;
   border-radius: 5px;
-  min-height: 45px;
+  min-height: 70px;
   margin: 0 0 15px;
   font-size: 20px;
   margin: 0 0 30px;
+  padding: 4px 20px;
+  background-color: #f1f0f0;
 }
