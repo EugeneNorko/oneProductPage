@@ -4,11 +4,15 @@
 }
 .header__title {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 42px;
   text-transform: uppercase;
   text-align: center;
   color: white;
+
+  @media screen and (min-width: 400px) {
+    font-size: 32px;
+  }
 
   @media screen and (min-width: 450px) {
     font-size: 36px;
