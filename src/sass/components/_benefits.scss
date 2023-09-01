@@ -24,7 +24,11 @@
 
 .benefits-list__text {
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   max-width: 155px;
+
+  @media screen and (min-width: 450px) {
+    font-size: 24px;
+  }
 }
