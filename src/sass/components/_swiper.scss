@@ -1,27 +1,30 @@
 .swiper {
-  width: 100%;
+  // width: 100%;
   margin-bottom: 30px;
 }
 .swiper-wrapper {
   padding-bottom: 45px;
 }
 .swiper-slide.swiper-slide--mySwiper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
+
 .swiper-review {
   width: 350px;
   min-height: 200px;
   background-color: #f1f0f0;
   border-radius: 10px;
-  border: 1px solid #000;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 35px 45px;
+  font-size: 18px;
 }
 .swiper-image {
   width: 80px;
