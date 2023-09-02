@@ -1,12 +1,14 @@
 .sizes {
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .sizes__text {
-  margin: 0 0 5px 100px;
+  text-align: center;
+  margin: 0 0 7px;
+  font-size: 20px;
 }
 .sizes__list {
-  width: 100%;
   padding: 0 15px;
   font-size: 30px;
   line-height: 30px;
