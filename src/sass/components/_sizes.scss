@@ -5,7 +5,7 @@
 }
 
 .sizes__list {
-  width: 50%;
+  width: 450px;
   font-size: 30px;
   line-height: 30px;
 
@@ -15,20 +15,17 @@
 }
 
 .sizes-list__item {
+  display: flex;
   font-weight: 700;
+  justify-content: center;
+}
 
-  &--text {
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  &--discount {
-    display: inline-block;
-    padding: 3px 7px;
-    border-radius: 10px;
-    font-weight: 500;
-    font-size: 14px;
-    margin-bottom: 10px;
-    background-color: red;
-    color: #fff;
-  }
+.sizes-list__size {
+  margin-right: 5px;
+}
+
+.sizes-list__price {
+  margin-right: 7px;
+  text-decoration: line-through red;
+  font-size: 26px;
 }

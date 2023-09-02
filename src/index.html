@@ -7,13 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <div class="container header__container">
         <div class="header__title-wrapp">
@@ -50,34 +51,35 @@
           </li>
         </ul>
         <div class="timer">
+          <p class="timer__text">Знижка 50% діє лише:</p>
           <div class="timer__field">
             <span class="timer__value" data-hours>00</span>
             <span class="timer__label">:</span>
-          </div>
-          <div class="timer__field">
             <span class="timer__value" data-minutes>00</span>
             <span class="timer__label">:</span>
-          </div>
-          <div class="timer__field">
             <span class="timer__value" data-seconds>00</span>
           </div>
         </div>
-        <p class="timer" id="timer"></p>
         <div class="sizes">
           <ul class="sizes__list">
-            <li class="sizes-list__item--text">Розмір:</li>
-            <li class="sizes-list__item">90×200:</li>
-            <li class="sizes-list__item">160×200:</li>
-            <li class="sizes-list__item">180×200:</li>
-          </ul>
-          <ul class="sizes__list">
-            <li class="sizes-list__item--discount">Тільки зараз знижка 50%</li>
-            <li class="sizes-list__item">499 грн</li>
-            <li class="sizes-list__item">549 грн</li>
-            <li class="sizes-list__item">599 грн</li>
+            <li class="sizes-list__item">
+              <span class="sizes-list__size">200x90 —</span>
+              <span class="sizes-list__price">999грн</span>
+              <span class="sizes-list__discount-price">499грн</span>
+            </li>
+            <li class="sizes-list__item">
+              <span class="sizes-list__size">200x80 —</span>
+              <span class="sizes-list__price">959грн</span>
+              <span class="sizes-list__discount-price">459грн</span>
+            </li>
+            <li class="sizes-list__item">
+              <span class="sizes-list__size">200x50 —</span>
+              <span class="sizes-list__price">800грн</span>
+              <span class="sizes-list__discount-price">400грн</span>
+            </li>
           </ul>
         </div>
-        <a href="#" class="buyBtn">Купити зараз</a>
+        <a href="#orderForm" class="buyBtn">Купити зараз</a>
       </div>
     </header>
     <main>
@@ -86,6 +88,7 @@
           <div class="video">
             <video
               width="480px"
+              height="480px"
               src="./images/videos/30182546.mp4"
               controls
             ></video>
@@ -268,18 +271,21 @@
           </ul>
           <div class="sizes">
             <ul class="sizes__list">
-              <li class="sizes-list__item--text">Розмір:</li>
-              <li class="sizes-list__item">90×200:</li>
-              <li class="sizes-list__item">160×200:</li>
-              <li class="sizes-list__item">180×200:</li>
-            </ul>
-            <ul class="sizes__list">
-              <li class="sizes-list__item--discount">
-                Тільки зараз знижка 50%
+              <li class="sizes-list__item">
+                <span class="sizes-list__size">200x90 —</span>
+                <span class="sizes-list__price">999грн</span>
+                <span class="sizes-list__discount-price">499грн</span>
               </li>
-              <li class="sizes-list__item">499 грн</li>
-              <li class="sizes-list__item">549 грн</li>
-              <li class="sizes-list__item">599 грн</li>
+              <li class="sizes-list__item">
+                <span class="sizes-list__size">200x80 —</span>
+                <span class="sizes-list__price">959грн</span>
+                <span class="sizes-list__discount-price">459грн</span>
+              </li>
+              <li class="sizes-list__item">
+                <span class="sizes-list__size">200x50 —</span>
+                <span class="sizes-list__price">800грн</span>
+                <span class="sizes-list__discount-price">400грн</span>
+              </li>
             </ul>
           </div>
           <div class="form-block">

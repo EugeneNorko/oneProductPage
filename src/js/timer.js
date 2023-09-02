@@ -4,7 +4,7 @@ const refs = {
   seconds: document.querySelector('[data-seconds]'),
 };
 const getSavedTime = sessionStorage.getItem('discountTime');
-const duration = getSavedTime ? getSavedTime : 180 * 60 * 1000;
+const duration = getSavedTime ? getSavedTime : 300 * 60 * 1000;
 
 const startTime = Date.now();
 
