@@ -1,11 +1,13 @@
 .sizes {
-  display: flex;
-  text-align: center;
   margin-bottom: 30px;
 }
 
+.sizes__text {
+  margin: 0 0 5px 100px;
+}
 .sizes__list {
-  width: 450px;
+  width: 100%;
+  padding: 0 15px;
   font-size: 30px;
   line-height: 30px;
 
@@ -16,6 +18,7 @@
 
 .sizes-list__item {
   display: flex;
+  margin: 0 auto;
   font-weight: 700;
   justify-content: center;
 }
